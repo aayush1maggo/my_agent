@@ -1,0 +1,22 @@
+google-adk
+litellm
+google-auth-oauthlib
+google-auth-httplib2
+google-analytics-data
+google-api-python-client
+requests
+python-dotenv
+beautifulsoup4
+matplotlib
+seaborn
+pandas
+aiohttp
+ultimate-sitemap-parser
+pydantic
+# Optional: Playwright for full JS-rendered crawling (not installed by default)
+# Install with: pip install playwright && playwright install chromium
+# playwright
+
+# Optional: spaCy for entity extraction in competitor content brief tool
+# pip install spacy && python -m spacy download en_core_web_sm
+# spacy>=3.7.0

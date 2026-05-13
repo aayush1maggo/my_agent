@@ -1,0 +1,7 @@
+location_code,location_name,location_code_parent,country_iso_code,location_type,available_sources,language_name,language_code,keywords,serps
+2036,Australia,,AU,Country,google,English,en,282641726,17291663
+2356,India,,IN,Country,google,English,en,296291705,15949312
+2356,India,,IN,Country,google,Hindi,hi,139103157,13210207
+2826,"United Kingdom",,GB,Country,google,English,en,463499701,36250630
+2840,"United States",,US,Country,"google,bing,amazon",English,en,1208677353,196368248
+2840,"United States",,US,Country,google,Spanish,es,163231090,5939475

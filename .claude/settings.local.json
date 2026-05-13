@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(python:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(grep:*)",
+      "Bash(cd /c/Users/hp/code/adk_agents/seo_agent && \"/c/Users/hp/code/adk_agents/seo_agent/venv/Scripts/python.exe\" -c \"\nfrom seo_agent.tools.browser_tools import _DEFAULT_HEADERS, fetch_page_content\nprint\\('User-Agent:', _DEFAULT_HEADERS['User-Agent']\\)\nprint\\('Headers count:', len\\(_DEFAULT_HEADERS\\)\\)\n\" 2>&1)",
+      "Bash(cd /c/Users/hp/code/adk_agents/seo_agent && \"/c/Users/hp/code/adk_agents/seo_agent/venv/Scripts/python.exe\" -c \"\nfrom seo_agent.agents.coordinator import seo_coordinator\nfrom seo_agent.agents.technical_agent import technical_agent\nfrom seo_agent.agents.keyword_agent import keyword_agent\nprint\\('coordinator tools:', len\\(seo_coordinator.tools\\)\\)\nprint\\('tech_auditor tools:', len\\(technical_agent.tools\\)\\)\nprint\\('keyword_master tools:', len\\(keyword_agent.tools\\)\\)\n# Confirm no grounding tools remain\ntool_types = [type\\(t\\).__name__ for t in technical_agent.tools]\nprint\\('tech_auditor tool types:', set\\(tool_types\\)\\)\n\" 2>&1)",
+      "WebFetch(domain:www.analyticsmania.com)",
+      "WebFetch(domain:smsfmecca.com.au)",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
